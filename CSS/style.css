@@ -7,7 +7,7 @@
 /* #region debug */
 
 .debug *{
-    border:1px dashed;
+    *border:1px dashed;
 }
 
 /* #endregion debug */
@@ -40,7 +40,7 @@
 
 #app_header{
 
-    background-color: red;
+    *background-color: red;
     
     
 
@@ -77,6 +77,10 @@
 .video_container{
     width:100%; 
     padding
+}
+
+.category{
+    padding-top: 5%;
 }
 .row_name_dessert{
     display: flex;
