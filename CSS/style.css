@@ -20,6 +20,7 @@
 
 }
 
+
 .d-flex{
     display: flex;
 }
@@ -85,11 +86,29 @@
 
 .name_dessert{
     width: 100%;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 .row_video_description{
     display: flex;
     flex-wrap: wrap;
+}
+.description{
+    background-color: white;
+    padding: 1rem;
+    
+
+    ul{
+        list-style-type: none;
+        li{
+            padding:1%
+        }
+    }
+}
+.ipadding{
+    padding-right: 2%;
+    color:var(--gb--logo)
 }
 
 
