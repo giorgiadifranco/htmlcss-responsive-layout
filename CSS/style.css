@@ -7,7 +7,7 @@
 /* #region debug */
 
 .debug *{
-    *border:1px dashed;
+    border:1px dashed;
 }
 
 /* #endregion debug */
@@ -17,6 +17,10 @@
 :root{
     --gb--logo: #fc9719;
     --gb--main_bg: #f6f5f3;
+    --gb--instagram: #f82273;
+    --gb--yout-pin: #ea1010;
+    --gb--f:#0c55b7;
+    --gb--twitter:#0d98ed;
 
 }
 
@@ -115,7 +119,38 @@
     color:var(--gb--logo)
 }
 
+.social{
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--gb--main_bg);
+    padding-top: 2rem;
 
+    a{
+        text-decoration: none;
+        color:black
+        
+
+    }
+}
+.social_botton{
+    background-color:white;
+    border-radius: 30%;
+    border-top-left-radius: ;
+
+    padding: 0.5rem;
+}
+.fa-facebook{
+    color: var(--gb--f);
+}
+.fa-twitter{
+    color: var(--gb--twitter);
+}
+.fa-square-instagram{
+    color:var(--gb--instagram);
+}
+.fa-pinterest, .fa-youtube{
+    color: var(--gb--yout-pin);
+}
 /* #endregion main */
 
 
@@ -128,6 +163,12 @@
     .desktop_plus{
         display: none;
     }
+
+    .name{
+        display: none;
+    }
+    
+
 }
 
 /* media desktop */
