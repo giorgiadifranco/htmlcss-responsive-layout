@@ -27,6 +27,16 @@
 .col-6 {
     width: calc((100/12)*6);
 }
+.col-4 {
+    width: calc((100/12)*4);
+}
+.col-8{
+    width: calc((100/12)*8);
+}
+.col-12{
+    width: 100%;
+}
+
 #app_header{
 
     background-color: red;
@@ -54,7 +64,9 @@
     display: flex;
     justify-content: center;
     background-color: var(--gb--main_bg) ;
-    padding-left:
+    padding-left:;
+    font-family: Montserrat, 'Helvetica Neue', sans-serif;
+
     
 }
 .main_container{
@@ -69,28 +81,18 @@
     display: flex;
     justify-content: space-between;
 }
-.rating{
-    width: 50%;
-    display: flex;
-    justify-content: flex-end;
-}
-.name_dessert{
-    width: 50%;
-}
-.rate{
-    
-    display:flex;
-    justify-content:center;
-    background-color: var(--gb--logo);
-    width: 80px;
-    border-radius: 1rem;
-    padding:1rem;
 
-    a{
-        text-decoration: none;
-        color:black
-    }
+
+.name_dessert{
+    width: 100%;
 }
+
+.row_video_description{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
 /* #endregion main */
 
 
@@ -99,17 +101,25 @@
 /* #region media */
 
 /* media mobilefirst */
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 600px) {
     #app_header {
         background-color: white;
     }
     
-    .nerko-one-regular_mb{
+    .nerko-one-regular_mb {
 
         weight: 600;
     }
+
+
+    .col-sm-8 {
+        width:60%;
+    }
+    
+    .col-sm-4 {
+        width: 40%;
+    }
+
 }
-
-
 
 /* #endregion media */
