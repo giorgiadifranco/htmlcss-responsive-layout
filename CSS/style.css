@@ -120,6 +120,13 @@
 /* #region media */
 
 /* media mobilefirst */
+@media screen and (max-width: 600px){
+    .desktop_plus{
+        display: none;
+    }
+}
+
+/* media desktop */
 @media screen and (min-width: 600px) {
     #app_header {
         background-color: white;
@@ -137,7 +144,9 @@
     
     .col-sm-4 {
         width: 40%;
+
     }
+
 
 }
 
