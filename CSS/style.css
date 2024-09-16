@@ -134,10 +134,14 @@
 }
 .social_botton{
     background-color:white;
-    border-radius: 30%;
+    border-radius: 20px;
     border-top-left-radius: ;
 
-    padding: 0.5rem;
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+    padding-right:1rem;
+    padding-bottom: 0.5em;
+
 }
 .fa-facebook{
     color: var(--gb--f);
@@ -191,7 +195,9 @@
         width: 40%;
 
     }
-
+    .botton{
+        display: inline-block;
+    }
 
 }
 
