@@ -124,6 +124,7 @@
     justify-content: space-around;
     background-color: var(--gb--main_bg);
     padding-top: 2rem;
+    padding-bottom: 2rem;
 
     a{
         text-decoration: none;
@@ -155,6 +156,38 @@
 .fa-pinterest, .fa-youtube{
     color: var(--gb--yout-pin);
 }
+/* history container */
+.history_title{
+    padding: 1rem;
+
+    
+}
+.horizontal_line{
+    color: var(--gb--logo);
+    height: 0.5;
+    width: 20%;
+}
+.history_col_img{
+
+    padding-left:20%;
+    padding-right: 10%;
+    padding-top:2rem;
+    padding-bottom: 2rem;
+
+}
+img{
+    max-width: 80%;
+
+}
+
+.history_col_p{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+
 /* #endregion main */
 
 
