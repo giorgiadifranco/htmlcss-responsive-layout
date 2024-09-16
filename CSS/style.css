@@ -1,0 +1,65 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/* #region debug */
+
+.debug *{
+    border:1px dashed;
+}
+
+/* #endregion debug */
+
+/* #region header */
+
+:root{
+    --gb--logo: #fc9719;
+
+}
+
+#app_header{
+    
+    width: 100%;
+
+    .title_header {
+        padding: 2rem
+    }
+
+    .nerko-one-regular {
+        font-family: "Nerko One", cursive;
+        font-weight: 400;
+        font-style: normal;
+        color:var(--gb--logo)
+    }
+}
+
+/* #endregion header */
+
+
+
+
+
+
+
+
+/* #region media */
+
+/* media desktop */
+@media screen and (min-widht: 600px) {
+
+    #app_header{
+        display: flex;
+        justify-content: center;
+    }
+    .nerko-one-regular_mb {
+        font-family: "Nerko One", cursive;
+        font-weight: 600;
+        font-style: normal;
+        color:red;
+    }
+    
+}
+
+/* #endregion media */
