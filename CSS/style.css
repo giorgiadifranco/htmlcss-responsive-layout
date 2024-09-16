@@ -16,12 +16,22 @@
 
 :root{
     --gb--logo: #fc9719;
+    --gb--main_bg: #f6f5f3;
 
 }
 
+.d-flex{
+    display: flex;
+}
+
+.col-6 {
+    width: calc((100/12)*6);
+}
 #app_header{
+
+    background-color: red;
     
-    width: 100%;
+    
 
     .title_header {
         padding: 2rem
@@ -35,31 +45,71 @@
     }
 }
 
+
 /* #endregion header */
 
+/* #region main */
 
+#app_main{
+    display: flex;
+    justify-content: center;
+    background-color: var(--gb--main_bg) ;
+    padding-left:
+    
+}
+.main_container{
+    width: 90%;
+    
+}
+.video_container{
+    width:100%; 
+    padding
+}
+.row_name_dessert{
+    display: flex;
+    justify-content: space-between;
+}
+.rating{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+.name_dessert{
+    width: 50%;
+}
+.rate{
+    
+    display:flex;
+    justify-content:center;
+    background-color: var(--gb--logo);
+    width: 80px;
+    border-radius: 1rem;
+    padding:1rem;
 
-
+    a{
+        text-decoration: none;
+        color:black
+    }
+}
+/* #endregion main */
 
 
 
 
 /* #region media */
 
-/* media desktop */
-@media screen and (min-widht: 600px) {
-
-    #app_header{
-        display: flex;
-        justify-content: center;
-    }
-    .nerko-one-regular_mb {
-        font-family: "Nerko One", cursive;
-        font-weight: 600;
-        font-style: normal;
-        color:red;
+/* media mobilefirst */
+@media screen and (max-width: 600px) {
+    #app_header {
+        background-color: white;
     }
     
+    .nerko-one-regular_mb{
+
+        weight: 600;
+    }
 }
+
+
 
 /* #endregion media */
