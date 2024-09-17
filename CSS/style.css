@@ -387,7 +387,9 @@ img{
         display: inline-block;
         padding:;
     }
- 
+    .footer_desktop{
+        display: none;
+    }
 }
 
 /* #endregion media */
