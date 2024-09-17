@@ -262,7 +262,7 @@ img{
 }
 
 /* media desktop */
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 992px) {
     #app_header {
         background-color: white;
     }
@@ -370,6 +370,24 @@ img{
         display: none;
     }
 }
-.history_row
+
+
+/* tablet */
+@media screen and (min-width:768px) {
+    
+    .description
+    .ul_tab{
+        
+        padding:2rem;
+        list-style-type: none;
+    }
+
+
+    li{
+        display: inline-block;
+        padding:;
+    }
+ 
+}
 
 /* #endregion media */
