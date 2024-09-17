@@ -312,15 +312,14 @@ img{
 
         
         img{
-            /float:left;
-            width: 30%;
-            margin-bottom:;
+            
+            display:inline-block;
+            float:left;
+            width: 50%;
+            margin-right:1rem;
             
         }
-        .testofloat{
-            float: right;
-            /padding:1rem;
-        }
+        
      
        /* col-4{
             width: 40%;
@@ -342,8 +341,8 @@ img{
             float: ;
         }         
         .history_col_img{
-            display: flex;
-            flex-wrap: wrap;
+            
+            
             padding-left: 1rem;
             padding-right: 1rem;
             
@@ -388,18 +387,19 @@ img{
 /* tablet */
 @media screen and (min-width:768px) and (max-width:991){
     
-    .description
-    .ul_tab{
-        
+      .ul_tab{
+        display: flex;
+        flex-wrap: wrap;
+        text-align
         padding:2rem;
-        list-style-type: none;
+        list-style-type: ;
     }
 
 
-    li{
-        display: inline-block;
+    /*li{
+        display:
         padding:;
-    }
+    }*/
     .footer_desktop{
         display: none;
     }
